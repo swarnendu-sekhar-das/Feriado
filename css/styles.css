@@ -1,0 +1,187 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+/* Headings */
+.intro-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.0rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 5% 15%;
+  border-bottom-style: dotted;
+  border-color: #d4f3ef;
+  border-width: 0.5rem;
+}
+
+/* Sections */
+.colored-section {
+  background-image: linear-gradient(#00a8cc, #50bda1);
+  color: #fff;
+}
+
+.white-section {
+  background-color: #d4f3ef;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 5.2rem;
+  font-weight: bold;
+  color: #f8b195;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 2.0rem;
+  font-family: "Segoe UI";
+}
+
+#navbartoggler .nav-link {
+  color: #bbe1fa;
+}
+
+#navbartoggler .nav-link:hover {
+  color: #ebe6e6;
+  transition-duration: 1s;
+}
+
+/* Title Section */
+#title {
+  background-image: linear-gradient(#00a8cc, #50bda1);
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 2% 15% 7%;
+}
+
+/* Title Image */
+.title-image {
+  position: absolute;
+  width: 230%;
+  bottom: 880%;
+  right: -380%;
+}
+
+.row #relax-img {
+  position: absolute;
+  top: -7.0rem;
+  left: 75%;
+  width: 70%;
+}
+
+/* Quote & Months Section */
+#quote {
+  position: relative;
+  font-size: 2.5rem;
+  padding: 10% 25% 10%;
+  color: #f78259;
+}
+
+#hlist h2 {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4.0rem;
+  padding: 5% 25% 5%;
+  color: #357376;
+}
+
+#hlist {
+  position: relative;
+  font-size: 2.5rem;
+  padding: 7% 15% 10%;
+  color: #ea5e5e;
+}
+
+#quote .quoter {
+  position: relative;
+  font-size: 1.2rem;
+  color: #27496d;
+}
+
+#hlist .details {
+  position: relative;
+  font-size: 1.37rem;
+  line-height: 2.5rem;
+  color: #27496d;
+}
+#about .details {
+  position: relative;
+  font-size: 1.35rem;
+  padding: 0% 10% 0%;
+  color: #27496d;
+}
+#about .hey {
+  position: relative;
+  font-size: 2.2rem;
+  color: #27496d;
+}
+/* Months Section */
+.month-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.0rem;
+  line-height: 3.0;
+}
+
+.plain-button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  width: 150px;
+  border-radius: 20px;
+}
+
+#month .mnbt {
+  color: white;
+  text-decoration: none;
+}
+#about h2 {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4.0rem;
+  padding: 5% 25% 5%;
+  color: #357376;
+}
+#about .cnbt {
+  color: #00909e;
+  text-decoration: none;
+}
+#month .container-fluid {
+  border-top-style: dotted;
+  border-color: #d4f3ef;
+  border-width: 0.5rem;
+}
+
+/* Footer Section */
+.cpr {
+  font-size: 150%;
+  margin: 0 auto 0 auto;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+}
